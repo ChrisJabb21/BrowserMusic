@@ -1,0 +1,90 @@
+ body {
+    font-size: 10px;
+    background: url(https://wallpaperaccess.com/full/1792302.jpg) bottom center;
+    background-size: cover;
+  }
+
+/*   .navbar {
+    min-height: 80px;
+  } */
+  
+/*   .box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+    border-radius: 50%;
+  } */
+
+
+  div{
+    padding: 25px;
+    text-align: center;   
+}
+  button{
+
+    width: 500px; /* // whatever your button's width */
+    margin: 0 auto; /* // auto left/right margins */
+    display: block;
+
+  }
+  @keyframes myfirst {
+    0%   {background-color:white; left:0px; top:0px;}
+    25%  {background-color:black; left:200px; top:0px;}
+    50%  {background-color:white; left:200px; top:200px;}
+    75%  {background-color:black; left:0px; top:200px;}
+    100% {background-color:white; left:0px; top:0px;}
+  }
+  
+  body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .keys {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    border-radius: 50%;
+
+  }
+  
+  .playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+    border-radius: 50%;
+
+
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
+  
